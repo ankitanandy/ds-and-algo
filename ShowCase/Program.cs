@@ -2,5 +2,5 @@
 using System;
 using System.Text;
 using Sorting;
-int[] arr = BubbleSort.Sort(new int[]{1,-1,4,2});
+int[] arr = HeapSort.Sort(new int[]{ 12, 11, 13, 5, 6, 7 });
 Console.WriteLine(string.Join(",",arr));
