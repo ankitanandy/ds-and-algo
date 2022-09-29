@@ -1,15 +1,13 @@
 ﻿namespace Sorting;
-//Time:O(N), Space:O(1)
+//Time:O(N^2), Space:O(1)
 public static class BubbleSort
 {
     public static int[] Sort(int[] arr)
     {
         for(int i=0;i<arr.Length;i++)
-            for(int j=i+1;i<arr.Length;j++)
-                if(arr[i]<arr[j])
-                SortingHelper.Swap(arr[i],arr[j]);
-              
-
+            for(int j=0;j<arr.Length-1;j++)
+                if(arr[j]>arr[j+1])
+                SortingHelper.Swap(ref arr[j],ref arr[j+1]);
               return arr;
     }   
 }
