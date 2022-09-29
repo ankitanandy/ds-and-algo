@@ -29,4 +29,23 @@ public class BinaryTree
 
             return result;
     }
+
+     public List<int> PreOrderTraversal()
+    {
+        BinaryTree root=this;
+        List<int> result=new List<int>();
+        return PreOrderTraversal(root,result);
+    }
+     public List<int> PreOrderTraversal(BinaryTree node,List<int> result)
+    {
+            if(node!=null)
+            {
+                result.Add(node.value);
+                PreOrderTraversal(node.left,result);
+                
+                PreOrderTraversal(node.right,result);
+            }
+
+            return result;
+    }
 }

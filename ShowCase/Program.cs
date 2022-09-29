@@ -24,7 +24,7 @@ public class Program{
        n4.left=n8;
 
     //   var inorderExpected = new int[]{8,4,2,5,1,6,3,7};
-       var actual = n1.InorderTraversal();
+       var actual = n1.PreOrderTraversal();
        /*for(int i=0;i<inorderExpected.Length;i++)
        {
              Assert.AreEqual(actual[i],expected[i]);
