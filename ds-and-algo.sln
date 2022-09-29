@@ -5,7 +5,7 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sorting", "Sorting\Sorting.csproj", "{AE260442-E8B7-4240-8979-D8F27869F98A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortingTest", "SortingTest\SortingTest.csproj", "{B87261CB-2C07-4739-839D-335C01A668D5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortingTest", "Test\SortingTest\SortingTest.csproj", "{B87261CB-2C07-4739-839D-335C01A668D5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShowCase", "ShowCase\ShowCase.csproj", "{92D98A2E-784A-4A54-A698-18A63EA69255}"
 EndProject
