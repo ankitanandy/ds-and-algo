@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortingTest", "Test\Sorting
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShowCase", "ShowCase\ShowCase.csproj", "{92D98A2E-784A-4A54-A698-18A63EA69255}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphAlgos", "GraphAlgos\GraphAlgos.csproj", "{253EA9AC-4517-4CA7-A6D2-2DAC98999651}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeAlgos", "TreeAlgos\TreeAlgos.csproj", "{126595C8-1E68-43B5-8821-BB2665CAF55E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +34,13 @@ Global
 		{92D98A2E-784A-4A54-A698-18A63EA69255}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{92D98A2E-784A-4A54-A698-18A63EA69255}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{92D98A2E-784A-4A54-A698-18A63EA69255}.Release|Any CPU.Build.0 = Release|Any CPU
+		{253EA9AC-4517-4CA7-A6D2-2DAC98999651}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{253EA9AC-4517-4CA7-A6D2-2DAC98999651}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{253EA9AC-4517-4CA7-A6D2-2DAC98999651}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{253EA9AC-4517-4CA7-A6D2-2DAC98999651}.Release|Any CPU.Build.0 = Release|Any CPU
+		{126595C8-1E68-43B5-8821-BB2665CAF55E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{126595C8-1E68-43B5-8821-BB2665CAF55E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{126595C8-1E68-43B5-8821-BB2665CAF55E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{126595C8-1E68-43B5-8821-BB2665CAF55E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

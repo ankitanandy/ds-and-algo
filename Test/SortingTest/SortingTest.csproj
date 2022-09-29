@@ -17,6 +17,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\Sorting\Sorting.csproj" />
+    <ProjectReference Include="..\..\TreeAlgos\TreeAlgos.csproj" />
   </ItemGroup>
 
 </Project>
