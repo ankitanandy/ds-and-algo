@@ -1,4 +1,5 @@
 ﻿namespace Sorting;
+//Time:O(N), Space:O(1)
 public static class BubbleSort
 {
     public static int[] Sort(int[] arr)
